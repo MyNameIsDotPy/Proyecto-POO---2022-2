@@ -1,0 +1,330 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-desktop4 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 1);
+}
+.home-multiracialgroupyoungcreativepeoplesmartcasualwear {
+  top: 0px;
+  left: 0px;
+  width: 1442px;
+  height: 1024px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-frame1 {
+  top: 232px;
+  left: 138px;
+  width: 1149px;
+  height: 753px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.home-group6 {
+  top: 0px;
+  left: 0px;
+  width: 1149px;
+  height: 1586px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-group5 {
+  top: 0px;
+  left: 0px;
+  width: 1149px;
+  height: 1586px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-group1 {
+  top: 457px;
+  left: 0px;
+  width: 362px;
+  height: 92px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(181, 86, 208, 1);
+}
+.home-text {
+  top: 26px;
+  left: 96px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-group4 {
+  top: 0px;
+  left: 0px;
+  width: 1149px;
+  height: 1586px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-text02 {
+  color: rgba(255, 255, 255, 1);
+  width: 789px;
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text03 {
+  color: rgba(255, 255, 255, 1);
+}
+.home-text04 {
+  color: rgba(203, 108, 230, 1);
+}
+.home-text05 {
+  color: rgba(255, 177, 11, 1);
+}
+.home-text06 {
+  color: rgba(255, 255, 255, 1);
+}
+.home-text08 {
+  top: 306px;
+  left: 4px;
+  color: rgba(255, 255, 255, 1);
+  width: 670px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat Alternates;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-hojadevida {
+  top: 826px;
+  left: 622px;
+  width: 527px;
+  height: 760px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-image2 {
+  top: 0px;
+  left: 0px;
+  width: 527px;
+  height: 760px;
+  position: absolute;
+}
+.home-group3 {
+  top: 353px;
+  left: 83px;
+  width: 362px;
+  height: 92px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 177, 10, 0.7599999904632568);
+}
+.home-text10 {
+  top: 26px;
+  left: 96px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-hojadevida2 {
+  top: 826px;
+  left: 17px;
+  width: 537px;
+  height: 751px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.home-image1 {
+  top: 0px;
+  left: 0px;
+  width: 537px;
+  height: 751px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-group2 {
+  top: 349px;
+  left: 88px;
+  width: 362px;
+  height: 92px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(202, 108, 230, 0.7900000214576721);
+}
+.home-text12 {
+  top: 26px;
+  left: 96px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-rectangle7 {
+  top: -5px;
+  left: 0px;
+  width: 1442px;
+  height: 75px;
+  position: absolute;
+  border-color: transparent;
+}
+.home-c11 {
+  top: -22px;
+  left: 1194px;
+  width: 204px;
+  height: 111px;
+  position: absolute;
+  border-color: transparent;
+}
+@media(max-width: 479px) {
+  .home-multiracialgroupyoungcreativepeoplesmartcasualwear {
+    width: 478px;
+    height: 683px;
+  }
+}
