@@ -9,13 +9,16 @@ import UploadPhoto from "../components/upload-photo";
 import "./../styles/form-container.css";
 import './home.css'
 import FormInfo from "../components/form-info";
-
+import BackGround from "../svg/layered-waves-haikei.svg"
+import SVGBackground from "../components/SVGBackground";
 
 const Home2 = (props) => {
 
     return (
         <div className="home-container">
-            <FormInfo/>
+            <SVGBackground image={BackGround}>
+                <FormInfo/>
+            </SVGBackground>
         </div>
     )
 }

@@ -1,0 +1,17 @@
+.SVGBack {
+  height: 100vh;
+  overflow-y: clip;
+}
+.SVGBack img {
+  height: max(100vw, 100vh);
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.home-container {
+  overflow-y: clip;
+}
+
+/*# sourceMappingURL=SVGBack.css.map */

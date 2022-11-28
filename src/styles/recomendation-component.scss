@@ -1,44 +1,99 @@
-.recomendation-component{
+.modal-trigger{
   position: absolute;
-  cursor: pointer;
-  right: 10px;
-  color: BLUE;
+  right:10px;
+  top: 0;
+}
+.wrp {
+  width:320px;
+  margin:50px auto;
+  text-align:center;
 }
 
-.recomendation-component .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  position: absolute;
-  z-index: 1;
+.bt {
+  cursor:pointer;
+  //border:1px solid #369;
+  //background:#369;
+  text-align:center;
+  padding:5px 10px;
+  color:#fff;
+  display:inline-block;
+  text-decoration: none;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.recomendation-component:hover .tooltiptext {
-  visibility: visible;
-}
+.wf-modal {
+  text-align: left;
+  .tit {
+    font-size: 20px;
+    margin:0;
+  }
+  .close .bt {
+    position:absolute;
+    right:5px;
+    top:5px;
+    background:none;
+    color:#ccc;
+    padding:5px 10px;
+    border:0;
+    &:before {
 
-.recomendation-component .tooltiptext {
-  opacity: 0;
-  transition: opacity 1s;
+      font-family:'fontAwesome'
+    }
+  }
+  &:before {
+    content: "";
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  &:target:before {
+    display: block;
+  }
+  &:target {
+    .wf-dialog-modal {
+      -webkit-transform: translate(0, 0);
+      -moz-transform: translate(0, 0);
+      transform: translate(0, 0);
+      top: 20%;
+    }
+  }
 }
+.wf-dialog-modal {
+  color: #363636;
+  background: #fefefe;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-left: -150px;
+  position: fixed;
+  left: 50%;
+  top: 100%;
+  z-index: 11;
+  width: 295px;
 
-.recomendation-component:hover .tooltiptext {
-  opacity: 1;
+  -webkit-transform: translate(0, 500%);
+  -moz-transform: translate(0, 500%);
+  transform: translate(0, 500%);
+
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
+.wf-content-modal {
+  padding:10px;
 
-.recomendation-component .tooltiptext::after {
-  content: " ";
-  position: absolute;
-  top: 50%;
-  right: 100%; /* To the left of the tooltip */
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent black transparent transparent;
+}
+.wf-header-modal,
+.wf-footer-modal {
+  padding:10px;
+}
+.wf-header-modal {
+  border-bottom: 1px solid #eee
+}
+.wf-footer-modal {
+  border-top: 1px solid #eee;
+  text-align: right;
 }
