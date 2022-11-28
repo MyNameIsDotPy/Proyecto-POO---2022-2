@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './primary-blue-button.css'
+import '../styles/primary-blue-button.css'
 
 const PrimaryBlueButton = (props) => {
   return (

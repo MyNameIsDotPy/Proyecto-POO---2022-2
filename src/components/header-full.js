@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import PrimaryPinkButton from './primary-pink-button'
-import './header-full.css'
+import '../styles/header-full.css'
 
 const HeaderFull = (props) => {
   return (

@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './outline-gray-button.css'
+import '../styles/outline-gray-button.css'
 
 const OutlineGrayButton = (props) => {
   return (

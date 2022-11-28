@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './footer-gray.css'
+import '../styles/footer-gray.css'
 
 const FooterGray = (props) => {
   return (

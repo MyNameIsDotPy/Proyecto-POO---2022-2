@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
+
+
 import './style.css'
 import ComingSoon from './views/coming-soon'
 import Profile from './views/profile'
@@ -15,7 +17,7 @@ const App = () => {
         <Route component={ComingSoon} exact path="/coming-soon" />
         <Route component={Profile} exact path="/profile" />
         <Route component={Home} exact path="/" />
-        <Route component={Home2} exact path="/h2" />
+        <Route component={Home2} exact path="/home2"/>
       </div>
     </Router>
   )

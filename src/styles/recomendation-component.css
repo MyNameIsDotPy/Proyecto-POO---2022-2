@@ -1,0 +1,45 @@
+.recomendation-component {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  color: BLUE;
+}
+
+.recomendation-component .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.recomendation-component:hover .tooltiptext {
+  visibility: visible;
+}
+
+.recomendation-component .tooltiptext {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.recomendation-component:hover .tooltiptext {
+  opacity: 1;
+}
+
+.recomendation-component .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+/*# sourceMappingURL=recomendation-component.css.map */

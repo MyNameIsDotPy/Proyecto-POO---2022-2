@@ -3,7 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import NextButton from './next-button'
-import './blog-card.css'
+import '../styles/blog-card.css'
 
 const BlogCard = (props) => {
   return (

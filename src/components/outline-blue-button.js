@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './outline-blue-button.css'
+import '../styles/outline-blue-button.css'
 
 const OutlineBlueButton = (props) => {
   return (

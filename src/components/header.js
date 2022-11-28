@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 import PrimaryPinkButton from './primary-pink-button'
-import './header.css'
+import '../styles/header.css'
 
 const Header = (props) => {
   return (

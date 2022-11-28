@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './next-button.css'
+import '../styles/next-button.css'
 
 const NextButton = (props) => {
   return (

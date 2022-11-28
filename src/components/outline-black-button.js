@@ -2,7 +2,7 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import './outline-black-button.css'
+import '../styles/outline-black-button.css'
 
 const OutlineBlackButton = (props) => {
   return (
