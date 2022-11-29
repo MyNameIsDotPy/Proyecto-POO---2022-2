@@ -1,7 +1,8 @@
 .form-container {
   overflow-y: scroll;
+  overflow-x: visible;
   background-color: rgba(98, 98, 98, 0.32);
-  width: 50vw;
+  width: auto;
   height: 100vh;
   justify-content: space-around;
   align-content: space-around;
@@ -29,7 +30,7 @@
 .upload-button {
   position: relative;
   background-color: white;
-  height: min(15vh, 15vw);
+  height: 100%;
   aspect-ratio: 1;
   border-radius: 15px;
   display: flex;
@@ -55,9 +56,14 @@
 }
 
 #UploadedImage {
+  left: 0;
+  z-index: 10;
+  position: absolute;
   object-fit: cover;
-  width: min(15vh, 15vw);
+  width: auto;
+  height: 100%;
   aspect-ratio: 1;
+  border-radius: inherit;
 }
 
 input[type=file] {

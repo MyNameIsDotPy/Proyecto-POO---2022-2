@@ -14,7 +14,7 @@ class FromInfo extends React.Component{
     render() {
         return (
             <div className={"form-container"}>
-                <form>
+                <form onSubmit={"#"}>
                     <div className={"form-column-section"}>
                         <div className={"section-head"}>
                             Datos Personales
@@ -23,7 +23,7 @@ class FromInfo extends React.Component{
                             <div className={"form-column-section"}>
                                 <div className={"input-section"}>
                                     <label> Nombre </label>
-                                    <input type={"text"} placeholder={"Nombre"}/>
+                                    <input type={"text"} id="Nombre" placeholder={"Nombre"}/>
                                     <RecomendationComponent>
                                         <div className={"titulo"}>
                                             Recomendacion!
@@ -35,7 +35,7 @@ class FromInfo extends React.Component{
                                 </div>
                                 <div className={"input-section"}>
                                     <label> Apellido </label>
-                                    <input type={"text"} placeholder={"Apellido"}/>
+                                    <input type={"text"} placeholder={"Apellido"} id="Apellido" />
                                 </div>
                             </div>
                             <div className={"form-column-section"}>
@@ -54,20 +54,20 @@ class FromInfo extends React.Component{
                             <div className={"form-column-section"}>
                                 <div className={"input-section"}>
                                     <label> Profesión </label>
-                                    <input type={"text"} placeholder={"Profesión"}/>
+                                    <input type={"text"} placeholder={"Profesión"} id="Profesion" />
                                 </div>
                                 <div className={"input-section"}>
                                     <label> Correo Electronico </label>
-                                    <input type={"email"} placeholder={"Correo Electronico"}/>
+                                    <input type={"email"} placeholder={"Correo Electronico"} id="email" />
                                 </div>
                                 <div className={"form-row-section"}>
                                     <div className={"input-section"}>
                                         <label> Telefono </label>
-                                        <input type={"tel"} placeholder={"Telefono"}/>
+                                        <input type={"tel"} placeholder={"Telefono"}  id="telefono" />
                                     </div>
                                     <div className={"input-section"}>
                                         <label> LinkedIn </label>
-                                        <input type={"search"} placeholder={"LinkedIn"}/>
+                                        <input type={"search"} placeholder={"LinkedIn"} id="linkedin" />
                                     </div>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ class FromInfo extends React.Component{
                                         Para esta sección, se permite un máximo de 250 caracteres, de igual forma, en el siguiente enlace encontrarás información importante a la hora de escribir la descripción de tu perfil
                                     </div>
                                 </RecomendationComponent>
-                                <textarea maxLength={1000}>
+                                <textarea maxLength={250}  id="Descr1" >
 
                                 </textarea>
                             </div>
@@ -100,34 +100,36 @@ class FromInfo extends React.Component{
 
                             <div className={"input-section"}>
                                 <label> Institucion </label>
-                                <input type={"text"} placeholder={"Institucion"}/>
+                                <input type={"text"} placeholder={"Institucion"} id="Institucion" />
                             </div>
                             <div className={"input-section"}>
                                 <label> Titulo </label>
-                                <input type={"text"} placeholder={"Titulo"}/>
+                                <input type={"text"} placeholder={"Titulo"} id="Titulo" />
                             </div>
                         </div>
                         <div className={"form-row-section"}>
                             <div className={"form-row-section"}>
                                 <div className={"input-section"}>
                                     <label> Fecha inicio </label>
-                                    <input type={"date"} placeholder={"Fecha Inicial"}/>
+                                    <input type={"date"} placeholder={"Fecha Inicial"} id="InitDate" />
                                 </div>
                                 <div className={"input-section"}>
                                     <label> Fecha final </label>
-                                    <input type={"date"} placeholder={"Fecha Final"}/>
+                                    <input type={"date"} placeholder={"Fecha Final"}  id="FinDate" />
                                 </div>
                             </div>
 
                             <div className={"input-section"}>
                                 <label> Ciudad </label>
-                                <input type={"text"} placeholder={"Ciudad"}/>
+                                <input type={"text"} placeholder={"Ciudad"}  id="City" />
                             </div>
                         </div>
                         <div className={"form-row-section"}>
                             <div className={"input-section"}>
                                 <label> Descripción </label>
-                                <textarea></textarea>
+                                <textarea  id="Descr2" >
+
+                                </textarea>
                             </div>
                         </div>
                         <div className={"section-head"}>
